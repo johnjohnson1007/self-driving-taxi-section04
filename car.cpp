@@ -33,7 +33,7 @@ int Car::read_battery()
 
 int Car::read_speed()
 {
-    return -10;
+    return speed;
 }
 
 Car &Car::shift()
@@ -61,12 +61,12 @@ bool Car::check_distance(std::vector<int> pickup, std::vector<int> dropoff)
     return true;
 }
 
-bool Car::is_home() 
+bool Car::is_home()
 {
     return false;
 }
 
-bool Car::has_passengers() 
+bool Car::has_passengers()
 {
     return false;
 }
